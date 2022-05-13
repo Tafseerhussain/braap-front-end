@@ -1,0 +1,81 @@
+@import '@/styles/color.scss';
+
+.card-container {
+    --card-space: 10px;
+    margin-left: calc(-1 * var(--card-space));
+    margin-right: calc(-1 * var(--card-space));
+
+    @media (min-width: 1700px) {
+        &.full-width {
+            .card-wrapper {
+                flex-basis: 360px !important;
+
+                @media (max-width: 2400px) {
+                    flex-basis: calc(16.6666667% - 2 * var(--card-space)) !important;
+                }
+
+                @media (max-width: 2200px) {
+                    flex-basis: calc(20% - 2 * var(--card-space)) !important;
+                }
+
+                @media (max-width: 1700px) {
+                    flex-basis: calc(25% - 2 * var(--card-space)) !important;
+                }
+            }
+        }
+    }
+
+    .card-wrapper {
+        flex-basis: calc(25% - 2 * var(--card-space)) !important;
+
+        border: 2px solid transparent;
+        transition: 0.3s;
+        margin: var(--card-space);
+
+        @media (max-width: 1399px) {
+            flex-basis: calc(33.3333% - 2 * var(--card-space)) !important;
+        }
+
+        @media (max-width: 991px) {
+            flex-basis: calc(50% - 2 * var(--card-space)) !important;
+        }
+
+        @media (max-width: 767px) {
+            flex-basis: calc(100% - 2 * var(--card-space)) !important;
+        }
+
+        &:hover {
+            border-color: $braap_orange;
+        }
+
+        &.selected {
+            border-color: $success;
+
+            &:after {
+                content: '';
+                width: 100%;
+                height: 100%;
+                left: 0;
+                top: 0;
+                position: absolute;
+                background-color: rgba(0, 0, 0, 0.3);
+                z-index: 4;
+                background-image: url(/icons/tick-circle-green.svg);
+                background-repeat: no-repeat;
+                background-size: 72px;
+                background-position: center;
+            }
+        }
+
+        &.skeleton {
+            &:hover {
+                border-color: transparent;
+            }
+
+            .v-skeleton-loader__avatar {
+                width: 60px;
+                height: 60px;
+            }
+        }
+    }
+}

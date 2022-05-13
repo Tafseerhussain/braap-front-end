@@ -1,0 +1,50 @@
+$body-font-family: 'axiforma';
+$font-weights: ('thin': 200,
+  'light': 300,
+  'regular': 400,
+  'medium': 500,
+  'bold': 700,
+  'black': 800);
+
+$material-light: ('text': ('primary': #696969),
+  'background': transparent,
+  'fg-color': #696969,
+  'text-color': #696969,
+  'primary-text-percent': 1,
+  'secondary-text-percent': 0.87,
+);
+
+$input-font-size: 16px;
+$input-max-height: 34px;
+$input-slot-margin-bottom: 6px;
+$text-field-line-height: 26px;
+$text-field-padding: 4px 13px 4px;
+$text-field-label-top: 11px;
+$text-field-append-prepend-margin: 5px;
+$text-field-label-active-transform: unset;
+
+$rating-padding: 0;
+
+$menu-content-border-radius: 10px;
+// $menu-content-elevation: 8;
+
+$list-item-title-font-size: 14px;
+$list-item-min-height: 42px;
+$list-dense-min-height: 36px;
+$list-item-content-padding: 5px;
+$snackbar-wrapper-margin: 18px;
+// $text-field-filled-full-width-outlined-single-line-slot-min-height: 36px;
+$text-field-solo-dense-control-min-height: 34px;
+$text-field-solo-control-min-height: 44px;
+
+$btn-letter-spacing: 0.5px;
+$btn-text-transform: none;
+
+$border-radius-root: 4px;
+
+$rounded: (0: 0,
+  'sm': $border-radius-root / 2,
+  null: 6px,
+  '8': $border-radius-root * 2,
+  '10': $border-radius-root * 2.5,
+  'xl': $border-radius-root * 6);

@@ -1,0 +1,61 @@
+/* Fonts */
+@font-face {
+	font-family: 'axiforma';
+	src: url('/fonts/axiforma-regular.otf');
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'axiforma-thin';
+	src: url('/fonts/axiforma-thin.otf');
+	font-style: normal;
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: 'axiforma-light';
+	src: url('/fonts/axiforma-light.otf');
+	font-style: normal;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: 'axiforma-regular';
+	src: url('/fonts/axiforma-regular.otf');
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'axiforma-medium';
+	src: url('/fonts/axiforma-semibold.otf');
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'axiforma-bold';
+	src: url('/fonts/axiforma-bold.otf');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'axiforma-black';
+	src: url('/fonts/axiforma-black.otf');
+	font-weight: 800;
+}
+
+$weights: thin,
+light,
+regular,
+medium,
+bold,
+'black';
+
+.v-application {
+	@each $weight in $weights {
+		.font-weight-#{$weight} {
+			font-family: 'axiforma-#{$weight}' !important;
+		}
+	}
+}

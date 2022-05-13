@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title>
+    Home | Braap
+  </title>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/6.5.95/css/materialdesignicons.min.css">
+  <script src="https://js.stripe.com/v3"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.34/moment-timezone-with-data.min.js"
+    integrity="sha512-fFkDTD3GpiLXZBIrfRu0etHZkCdWPkcNy4TjDqI3gQFVfbbDRFG5vV7w3mIeeOCvUY5cEKTUFiTetIsFtWjF1Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.0/dist/chart.min.js"></script>
+
+
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_6WPLfpYticYsqVt3tULxJZzRNCQTzR4&libraries=places&v=weekly&language=en"></script>
+
+
+  <script src="/lib/jquery/jquery.js"></script>
+  <script src="/lib/jquery/jquery.ui.core.js"></script>
+  <script src="/lib/jquery/jquery.ui.widget.js"></script>
+  <script src="/lib/jquery/jquery.ui.mouse.js"></script>
+  <script src="/lib/jquery/jquery.ui.draggable.js"></script>
+  <script src="/lib/jquery/jquery-collision.min.js"></script>
+  <script src="/lib/jquery/jquery-ui-draggable-collision.min.js"></script>
+  <script src="/lib/jquery/jquery-simulate.js"></script>
+
+  <!-- scroll reveal -->
+  <script src="https://unpkg.com/scrollreveal@4"></script>
+  <style>
+    /* PRELOADER */
+    .preloaderBg {
+      position: fixed;
+      z-index: 2247483646 !important;
+      top: 0;
+      background: #000;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: 600ms;
+      opacity: 1;
+    }
+
+    .preloader {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      background: url('/img/logo-white.svg') no-repeat center;
+      background-size: 30px;
+      height: 50px;
+      background-position: center;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 50px;
+      transform: translate(-45%, -50%);
+    }
+
+    .preloader2 {
+      border: 5px solid #E6E6E6;
+      border-top: 5px solid #E58A00;
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      animation: spin 1s ease-in-out infinite;
+      position: absolute;
+      top: calc(50% - 50px);
+      left: calc(50% - 50px);
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+  </noscript>
+  <div class="hidden-field">
+    <input type="hidden" id="User_Type" value="CUSTOMER">
+  </div>
+
+  <!-- WEBSITE PRELOADER -->
+  <div class="preloaderBg" id="preloader">
+    <div class="preloader">
+      <svg width="30" height="43.47" viewBox="0 0 69 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M59.4155 91.3205C53.808 97.0879 46.8085 99.9374 38.7588 99.9716C26.0834 100.025 13.408 99.9863 0.73268 99.9863C0.503107 99.9863 0.273534 99.9667 0.00488453 99.9521V71.4669C4.91384 74.507 9.72022 77.4885 14.6194 80.5188V87.0292C14.7904 87.0585 14.9027 87.0976 15.0102 87.0927C22.3663 87.0927 29.7224 87.2882 37.0687 87.0194C43.7263 86.775 48.5571 83.2461 51.3657 77.2637C54.0327 71.5647 53.3147 66.0026 49.661 60.9194C46.3151 56.2615 41.6162 54.1207 35.9257 54.111C29.102 54.0963 22.2784 54.1012 15.4547 54.1159C14.8148 54.1207 14.2726 53.9692 13.7255 53.6271C9.36365 50.8998 4.98711 48.1969 0.615451 45.4843C0.42007 45.3621 0.224688 45.2301 0 45.0835V0H21.4333V12.7078H14.6585V41.0854C14.805 41.2663 14.9906 41.2369 15.1616 41.2321C22.337 41.2272 29.5123 41.2956 36.6877 41.1783C43.1207 41.0757 48.9088 35.6846 49.7148 29.2671C50.5451 22.6591 47.9856 17.5319 42.1975 14.2132C42.1242 14.1741 42.0558 14.1155 41.9777 14.0617V0.190618C51.9421 1.97949 59.0735 7.3901 62.9519 16.6424C67.05 26.4176 65.8582 37.2682 54.9315 46.9555C55.4053 47.454 56.05 47.6837 56.5971 48.0601C62.9225 52.4345 66.6104 58.4805 67.7045 66.0466C69.1161 75.8072 66.2391 84.2921 59.4155 91.3205Z"
+          fill="white" />
+      </svg>
+    </div>
+    <div class="preloader2"></div>
+  </div>
+
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>
