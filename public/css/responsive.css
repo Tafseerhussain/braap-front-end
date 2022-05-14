@@ -1,0 +1,567 @@
+/* 2000 PX */
+@media (min-width: 2000px) {
+	.container {
+		max-width: 1800px !important;
+	}
+	.bottom-point-card {
+		margin-top: 0.5rem;
+	}
+	.process-center {
+		width: 84%;
+		top: 4%;
+	}
+}
+
+/* 1649 PX */
+@media (max-width: 1649px){
+	.home-header .main-menu a {font-size: 16px !important}
+	.feature-card .feature-card-img img {max-width: 100%}
+	.feature-card .feature-title {
+	    line-height: 34px;
+	    font-size: 20px !important;
+	}
+	.feature-card .feature-pointer p {
+	    font-size: 14px;
+	    line-height: 27px;
+	    color: #696969;
+	    margin: 10px 0 !important;
+	}
+	.customer-search .search-list-item .search-link {font-size: 16px !important}
+	.section-title {
+	    font-size: 40px !important;
+	    line-height: 60px !important;
+	}
+	.customer-reason .card .process-text {font-size: 14px !important}
+	.blog-card .blog-text {font-size: 14px}
+}
+
+/* 1399 PX */
+@media (max-width: 1399px) {
+	.nav-link.dropdown-toggle img {height: 40px}
+	.header-static .shop-link {padding: 8px 15px !important}
+	.header-static .nav-link {
+	    margin: 0 8px;
+	    font-size: 14px;
+	}
+	.header-static .header-search input {font-size: 12px;}
+	.header-static .header-search input::placeholder {font-size: 12px}
+	.header-search {
+	    width: 40%;
+	    margin-left: 30px;
+	}
+	.header-home .nav-link {margin: 0 13px; font-size: 14px}
+	.hero-heading {font-size: 80px}
+	p {font-size: 14px; line-height: 27px}
+	.trending-searches a {font-size: 12px; margin-right: 15px}
+	.btn {
+	    padding: 10px 27px;
+	    font-size: 16px;
+	}
+	.section-title {font-size: 38px}
+	.trending-card {padding: 60px 10px 50px}
+	.trending-searches a {margin-right: 10px}
+	.trending-fixes .g-xl-4 {
+		--bs-gutter-x: 1rem;
+		--bs-gutter-y: 1rem;
+	}
+	.trending-cards {margin-top: 40px}
+	.trending-card .ribbon {
+	    padding: 3px 12px 0px;
+	    font-size: 12px;
+	}
+	.trending-card .card-hamburger {
+	    right: 10px;
+	    top: 10px;
+	}
+	.trending-card .card-hamburger img {height: 27px}
+	.trending-card .card-title {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.trending-card .card-meta-content div {font-size: 10px}
+	.trending-card .card-meta-content img {height: 18px}
+	.trending-card .card-meta-content .tag {
+	    padding: 6px 16px;
+	    font-size: 12px;
+	}
+	.trending-card .card-meta {padding: 6px 0}
+	.trending-card .card-name, .trending-card .card-help a {font-size: 12px}
+	.feature-head {
+	    font-size: 18px;
+	    line-height: 27px;
+	}
+	.feature-points p {
+	    line-height: 20px;
+	    margin-bottom: 18px;
+	    font-size: 14px;
+	}
+	.feature-learn-more a {
+		font-size: 14px;
+		margin-top: 20px;
+	}
+	.feature-learn-more a img {
+		height: 13px;
+	    position: relative;
+	    top: -1px;
+	    margin-left: 3px;
+	}
+	.market-place-slider .market-slide .text {font-size: 14px}
+	.market-place-slider .slick-slide img {height: 50px}
+	.market-place {padding-bottom: 150px}
+	.market-place-slider .slick-prev,
+	.market-place-slider .slick-next {
+		height: 40px;
+		width: 40px;
+	}
+	.section-title {font-size: 32px}
+	.testimonial-head {font-size: 32px}
+	.testimonial-head span {font-size: 14px}
+	.testimonial-text {
+	    font-size: 16px;
+	    line-height: 30px;
+	}
+	.testimonial-slider .slick-next,
+	.testimonial-slider .slick-prev {width: 40px}
+	.customer-search-list h2 {
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+	.customer-search-list .list a {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+	.single-blog .blog-meta {padding: 4px 15px 20px}
+	.blog-meta .blog-title {
+	    padding: 0px 0 7px;
+	    font-size: 16px;
+	}
+	.blog-meta .blog-text {
+	    font-size: 12px;
+	    line-height: 24px;
+	}
+	.blog-link a {
+		font-size: 14px;
+	}
+	.blog-link a img {
+		height: 13px;
+	    margin-left: 3px;
+	}
+	.point-card {margin-bottom: 80px}
+	.process-center {
+	    width: 98%;
+	    top: 3%;
+	}
+	.footer-logo img {height: 40px}
+	.footer-links a {
+	    font-size: 14px;
+	    line-height: 24px;
+	}
+	.footer-head {font-size: 20px}
+	.footer-head:after {
+	    width: 40px;
+	    bottom: -6px;
+	}
+	.footer-col-2 .mt-5,
+	.footer-col-3 .mt-5 {margin-top: 2rem !important}
+	.footer-col-1 p {margin: 28px 0}
+	footer .social-links a img {height: 30px}
+	.sticky-search-bar .input-group-text {padding: 0.28rem .75rem}
+	.sticky-search-bar input {padding-top: 8px}
+	.about {padding: 60px 0}
+	.story {padding: 120px 0 200px}
+	.pricing-card {padding: 30px}
+	.pricing-title {
+	    font-size: 27px;
+	    line-height: 34px;
+	}
+	.pricing-subtitle {
+	    font-size: 20px;
+	    margin: 10px 0 0px;
+	}
+	.pricing-subtitle .included {
+	    font-size: 16px;
+	    margin-top: 6px;
+	}
+	.pricing-card-body p {
+    	font-size: 14px;
+	    line-height: 22px;
+	    margin-bottom: 6px;
+	}
+	.pricing-card-head img {height: 100px}
+	.pricing-footer {padding: 10px 0 10px}
+	.pricing-footer h1 {font-size: 20px}
+	.pricing-footer .flexible-card img {height: 70px; line-height: 30px}
+	.pricing-footer .flexible-card {padding: 20px}
+	.pricing-footer .flexible-card p {
+	    font-size: 14px;
+	    line-height: 24px;
+	    margin-top: 0;
+	}
+	.pricing-footer .setup {
+	    font-size: 14px;
+	    margin-bottom: 70px;
+	    line-height: 27px;
+	}
+	.pricing-card-head img {height: 70px}
+	.pricing-card {padding: 20px}
+	.pricing-title {
+	    font-size: 23px;
+	    line-height: 30px;
+	}
+	.pricing-footer h1 {
+	    font-size: 16px;
+	    line-height: 24px;
+	}
+	.pricing-footer .flexible-card p {font-size: 12px}
+	.pricing-footer .flexible-card img {height: 50px}
+	.pricing-card-body p {
+	    font-size: 12px;
+	    margin-bottom: 4px;
+	}
+}
+
+/* 1199 PX */
+@media (max-width: 1199px) {
+	.header-static .navbar-brand img {height: 40px}
+	.header-static .header-search {margin-left: 10px}
+	.header-static .nav-link {margin: 0 4px}
+	.about-img {width: 90%}
+	.hero-search .input-group-text {padding: .27rem .75rem}
+	.hero-search .input-group-text img {height: 20px}
+	.hero-search .input-group-text:last-child img {height: 27px}
+	.hero-search input {padding-left: 55px}
+	.btn {font-size: 14px}
+	.hero-bottom-text {
+	    margin-top: 120px;
+	    font-size: 14px;
+	}
+	.home-move-down img {height: 40px}
+	.trending-searches {margin-top: 50px}
+	p {
+	    font-size: 12px;
+	    line-height: 24px;
+	}
+	.point-card {margin-bottom: 44px}
+	.market-place-arrows {width: 70px}
+	.market-place-circle {width: 130px}
+	.market-place-waves {width: 120px}
+	.market-place-top-right {width: 100px}
+	.section-top-right {height: 120px}
+	.section-top-left {height: 60px}
+	.section-bottom-left {height: 200px}
+}
+
+/* 991 PX */
+@media (max-width: 991px) {
+	.footer-links a {font-size: 12px}
+	footer .g-5 {
+		--bs-gutter-y: 1rem;
+		--bs-gutter-x: 1rem;
+	}
+	footer .social-links a {margin-right: 2px}
+	.copyright {font-size: 12px}
+	.point-card {padding: 10px}
+	.point-card p {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.section-title {font-size: 27px}
+	.feature-img img {height: 120px; width: auto}
+	.feature-img {height: 130px}
+	.feature-card {padding: 15px 10px}
+	.feature-head {
+	    font-size: 14px;
+	    line-height: 24px;
+	}
+	.feature-points p {
+	    line-height: 18px;
+	    margin-bottom: 10px;
+	    font-size: 12px;
+	}
+	.feature-learn-more {margin-top: 20px}
+	.market-place-slider .slick-prev, .market-place-slider .slick-next {
+	    height: 30px;
+	    width: 30px;
+	}
+	.testimonial-text,
+	.testimonial-rating {
+	    font-size: 14px;
+	    line-height: 24px;
+	}
+	.customer-search-list h2 {
+	    font-size: 16px;
+	    margin-bottom: 16px;
+	}
+	.customer-search-list .list a {
+	    font-size: 12px;
+	    margin-bottom: 10px;
+	    line-height: 22px;
+	}
+	.customer-braap .mt-5.pt-5 {padding-top: 0 !important}
+	.navbar {display: none}
+	.header-mob .hero-search {
+		margin: 0;
+		position: relative;
+		top: 9px
+	}
+	.header-mob{transition: 0.5s}
+	.header-mob-search {
+		transition: 0.5s;
+		opacity: 0;
+		pointer-events: none;
+	}
+	.header-mob-static {box-shadow: var(--theme-shadow)}
+	.header-mob-static .header-mob-search {
+		opacity: 1 !important;
+		pointer-events: all !important;
+	}
+	.header-mob-static .header-mob-search .hero-search input {font-size: 12px;border-color: var(--dark-gray)}
+	.header-mob-static .header-mob-search .hero-search input::placeholder {font-size: 12px}
+	.header-mob-logo .braap-logo {
+		height: 45px;
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	.header-mob-menu a img {
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	.mob-sidemenu .mob-sidemenu-links .active {
+		color: var(--orange);
+	}
+	.mob-sidemenu-links a {
+		color: var(--dark-gray);
+		display: block;
+		margin-bottom: 20px;
+	}
+	.mob-sidemenu-links {margin-top: 100px}
+	.mob-sidemenu-links hr {margin-bottom: 20px}
+	.navbar-spacer {padding-top: 74px}
+	.page-title {
+	    font-size: 40px;
+	    line-height: 60px;
+	}
+	.page-title:after {
+	    height: 4px;
+	    width: 130px;
+	}
+	.about-desc p {
+	    margin: 20px 0;
+	    line-height: 27px;
+	}
+	.about-top-right {height: 90px}
+	.about-bottom-left {height: 110px}
+	.quote-faded {
+	    margin-top: 20px;
+	    height: 40px;
+	}
+	.story-text .section-title {margin: 50px 0 30px}
+	.story .braap-faded {height: 290px}
+	.story-video-img img {width: 100%}
+	.story {padding: 80px 0 100px}
+	.pricing .large-customers {
+	    padding: 10px 20px;
+	    margin-top: 20px;
+	}
+	.pricing .btn {font-size: 12px}
+	.pricing-title br {display: none}
+	.pricing-footer .flexible-card {padding: 15px}
+}
+
+/* 767 PX */
+@media (max-width: 767px) {
+	.customer-braap .process-center {display: none !important}
+	.customer-braap .point-card {left: 0; right: 0; margin-bottom: 20px !important}
+	.hero-search .input-group-text img {height: 15px}
+	.hero-search .input-group-text:last-child img {height: 22px}
+	.hero-search .input-group-text:first-child {
+	    position: absolute;
+	    left: 0;
+	    top: 50%;
+	    transform: translateY(-50%);
+	    padding: 10px;
+	}
+	.hero-search input {
+	    padding: 14px 100px 14px 36px;
+	    font-size: 12px;
+	}
+	.hero-search .input-group-text:last-child {
+	    border-left: 1px solid var(--dark-gray);
+	    position: absolute;
+	    right: 0;
+	    top: 50%;
+	    transform: translateY(-50%);
+	    left: auto;
+	    margin: auto !important;
+	    padding-left: 4px;
+    	padding-right: 9px;
+	}
+	.trending-searches a:first-child {
+	    position: relative;
+	    left: 23px;
+	    width: 100%;
+	}
+	.trending-searches {
+	    flex-direction: row;
+	    flex-wrap: wrap;
+	}
+	.hero-slider {padding-top: 100px}
+	.search-results {z-index: 1}
+	.search-results a {
+	    font-size: 12px;
+	    padding: 0.3rem 0.5rem;
+	}
+	.search-results a img {height: 10px}
+	.hero-search .input-group-text:last-child a:first-child img {margin-right: 12px !important}
+	::-webkit-scrollbar {width: 3px}
+	.customer-braap .col-md-3 {
+		padding-right: calc(var(--bs-gutter-x)/ 2);
+	    padding-left: calc(var(--bs-gutter-x)/ 2);
+	}
+	.trending-fixes,
+	.features-home,
+	.testimonials,
+	.customer-search,
+	.blog,
+	.customer-braap {padding: 50px 0}
+	.market-place {padding: 50px 0 110px}
+	.blog .learn-btn,
+	.view-all-btn {margin-top: 50px}
+	.feature-img, .feature-img img {height: 150px}
+	.customer-braap .row:nth-child(2)  .point-card:nth-child(odd),
+	.customer-braap .row:nth-child(3) .point-card:nth-child(even),
+	.customer-braap .row:nth-child(3) .col-md-3:nth-child(3) .point-card:nth-child(odd) {
+	    width: 90%;
+	    margin-left: auto;
+	    margin-right: 0;
+	}
+	.customer-braap .row:nth-child(3) .point-card:nth-child(odd),
+	.customer-braap .row:nth-child(3) .col-md-3:nth-child(3) .point-card:nth-child(even),
+	.customer-braap .bottom-point-card .point-card {
+	    width: 90%;
+	    margin-right: auto;
+	    margin-left: 0;
+	}
+	.customer-braap .row:nth-child(3) .point-card:nth-child(odd):after,
+	.customer-braap .row:nth-child(3) .col-md-3:nth-child(3) .point-card:nth-child(even):after,
+	.customer-braap .bottom-point-card .point-card:after {
+	    content: '';
+	    position: absolute;
+	    right: -10%;
+	    top: 50%;
+	    line-height: 0;
+	    background-image: url(assets/icons/bead.svg);
+	    height: 40px;
+	    width: 40px;
+	    background-size: 100%;
+	    background-position: center;
+	    transform: translateY(-40%);
+	}
+	.customer-braap .row:nth-child(2)  .point-card:nth-child(odd):before,
+	.customer-braap .row:nth-child(3) .point-card:nth-child(even):before,
+	.customer-braap .row:nth-child(3) .col-md-3:nth-child(3) .point-card:nth-child(odd):before{
+	    content: '';
+	    position: absolute;
+	    left: -10%;
+	    top: 50%;
+	    line-height: 0;
+	    background-image: url(assets/icons/bead.svg);
+	    height: 40px;
+	    width: 40px;
+	    background-size: 100%;
+	    background-position: center;
+	    transform: translateY(-40%);
+	}
+	.customer-braap .row:nth-child(3) .col-md-3:last-child .point-card:first-child:after {display: none}
+	.customer-braap .row:nth-child(3) .col-md-3:last-child .point-card:nth-child(2):before {display: none}
+	.customer-braap .row:nth-child(3) .col-md-3:last-child .point-card:nth-child(3):after {display: none}
+	.about-img img {width: 85%}
+	.about-top-right {right: -5%}
+	.about-bottom-left {left: -5%}
+	.navbar-spacer {padding-top: 60px}
+	.story-video-img {
+	    top: 40%;
+	    width: 75%;
+	}
+	.story {padding-top: 50px}
+	.story .braap-faded {
+	    height: 200px;
+	    right: 0;
+	    bottom: 0;
+	    left: auto;
+	    top: 0;
+	}
+	.story .col-md-6:first-child {order: 2}
+	.story-text .section-title {margin-top: 0}
+	.section-left,
+	.section-dots,
+	.section-waves {display: none}
+}
+
+/* 575 PX */
+@media (max-width: 575px) {
+	.hero-bottom-text {font-size: 12px; margin-top: 80px}
+	.hero-bottom-text {padding: 20px}
+	.market-place-slider .slick-next {right: 40%}
+	.market-place-slider .slick-prev {left: 40%}
+	.footer-col-1 {margin-bottom: 30px}
+	.section-title:after {
+	    height: 4px;
+	    width: 130px;
+	}
+	.point-card {padding: 15px 10px}
+	.how-brap-works-btn {font-size: 12px; padding: 10px 20px}
+	.how-brap-works-btn img {height: 12px}
+	.header-mob-menu a img {top: 43%}
+	.about-img {width: 100%}
+	.about-bottom-left {left: 0}
+	.about-top-right {right: 0}
+	.pricing-cards {margin-top: 35px}
+	.pricing-title {font-size: 18px}
+	.pricing-subtitle {font-size: 16px}
+	.pricing-subtitle .included {font-size: 14px}
+	.pricing-subtitle .included {margin-top: 0}
+	.pricing-subtitle {margin-top: 4px}
+	.pricing-card-body {margin-top: 10px}
+	.pricing-card-head img {height: 55px}
+	.pricing-footer {padding: 0}
+	.pricing .large-customers {
+	    text-align: center;
+	    margin-right: 0;
+	    margin-left: 0;
+	    padding: 20px;
+	}
+	.pricing .large-customers .text-end {
+		text-align: center !important;
+	    margin-top: 10px;
+	}
+}
+
+/* 499 PX */
+@media (max-width: 499px) {
+	.header-mob {
+		padding-bottom: 70px;
+		padding-top: 10px;
+	}
+	.header-mob-logo .braap-logo {height: 40px}
+	.header-mob .hero-search {
+	    position: absolute !important;
+	    width: 96%;
+	    left: 2%;
+	    top: 52%;
+	}
+	.header-mob .hero-search .search-results {top: 80%}
+	.section-title {font-size: 20px}
+	.section-title:after {width: 110px}
+	.trending-cards {margin-top: 20px}
+	.navbar-spacer {padding-top: 100px}
+	.page-title {
+	    font-size: 32px;
+	    line-height: 50px;
+	}
+	.story .braap-faded {height: 140px}
+	.pricing-title {width: 80%}
+	.pricing-card {padding: 15px}
+}
